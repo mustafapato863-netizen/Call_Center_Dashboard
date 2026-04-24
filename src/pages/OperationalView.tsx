@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, TrendingUp, ArrowUpDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import { usePerformanceData } from '../hooks/usePerformanceData';
 import OutlierAlerts from '../components/charts/OutlierAlerts';
+import { OperationalViewSkeleton } from '../components/common/SkeletonLoader';
 import type { LocationKey, MonthKey } from '../types';
 
 const ROWS_PER_PAGE = 15;
@@ -46,9 +47,15 @@ const OperationalView = () => {
   const [sortField, setSortField] = useState<SortField>('score');
   const [sortDir, setSortDir] = useState<SortDir>('desc');
   const [page, setPage] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Reset page when filters change
-  useEffect(() => { setPage(0); }, [month, location]);
+  // Reset page & show loader when filters change
+  useEffect(() => {
+    setPage(0);
+    setIsLoading(true);
+    const timer = setTimeout(() => setIsLoading(false), 500);
+    return () => clearTimeout(timer);
+  }, [month, location]);
 
   const resetPage = () => setPage(0);
 
@@ -104,12 +111,25 @@ const OperationalView = () => {
     </th>
   );
 
+  if (isLoading) {
+    return (
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
+        <OperationalViewSkeleton />
+      </motion.div>
+    );
+  }
+
   return (
     <motion.div
-      initial={{ opacity: 0, x: 20 }}
-      animate={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, x: -20 }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.35 }}
       className="p-4 md:p-8 max-w-[1600px] mx-auto space-y-6"
     >
       {/* ── Outlier Alerts ── */}

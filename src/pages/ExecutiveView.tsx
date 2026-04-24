@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
@@ -16,6 +17,7 @@ import LocationProfitabilityChart from '../components/charts/LocationProfitabili
 import ValueLeakageChart from '../components/charts/ValueLeakageChart';
 import ExecutiveInsights from '../components/charts/ExecutiveInsights';
 import AgentRanking from '../components/charts/AgentRanking';
+import { ExecutiveViewSkeleton } from '../components/common/SkeletonLoader';
 import type { LocationKey, MonthKey } from '../types';
 
 function getGradeLabel(score: number): string {
@@ -30,6 +32,14 @@ const ExecutiveView = () => {
   const [searchParams] = useSearchParams();
   const month = (searchParams.get('month') || 'All') as MonthKey;
   const location = (searchParams.get('location') || 'all') as LocationKey;
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Simulate a short data-processing delay whenever filters change
+  useEffect(() => {
+    setIsLoading(true);
+    const timer = setTimeout(() => setIsLoading(false), 500);
+    return () => clearTimeout(timer);
+  }, [month, location]);
 
   const {
     agents,
@@ -45,12 +55,25 @@ const ExecutiveView = () => {
     avgAHTSeconds,
   } = usePerformanceData(month, location);
 
+  if (isLoading) {
+    return (
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
+        <ExecutiveViewSkeleton />
+      </motion.div>
+    );
+  }
+
   return (
     <motion.div
-      initial={{ opacity: 0, x: 20 }}
-      animate={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, x: -20 }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.35 }}
       className="p-4 md:p-8 max-w-[1600px] mx-auto space-y-8"
     >
       {/* ── Section 1: Executive Summary KPIs ── */}
