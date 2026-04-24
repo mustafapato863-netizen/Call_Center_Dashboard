@@ -25,15 +25,9 @@
   --color-danger-400: #f87171;
   --color-danger-500: #ef4444;
 
-<<<<<<< HEAD
   --color-sidebar: #0b1120;
   --color-sidebar-hover: #1e293b;
   --color-sidebar-border: rgba(255, 255, 255, 0.05);
-=======
-  --color-sidebar: #0f172a;
-  --color-sidebar-hover: #1e293b;
-  --color-sidebar-border: #1e293b;
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
@@ -51,10 +45,7 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-<<<<<<< HEAD
   background-color: #f8fafc;
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 }
 
 /* --- Custom Scrollbar --- */
@@ -70,38 +61,27 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #cbd5e1;
   border-radius: 999px;
-<<<<<<< HEAD
   border: 2px solid transparent;
   background-clip: padding-box;
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
-<<<<<<< HEAD
   border: 2px solid transparent;
   background-clip: padding-box;
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 }
 
 /* Dark scrollbar for sidebar */
 .sidebar-scroll::-webkit-scrollbar-thumb {
-<<<<<<< HEAD
   background: rgba(255,255,255,0.2);
 }
 
 .sidebar-scroll::-webkit-scrollbar-thumb:hover {
   background: rgba(255,255,255,0.3);
-=======
-  background: #334155;
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 }
 
 /* --- Table Utilities --- */
 .table-row-hover {
-<<<<<<< HEAD
   transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -119,19 +99,10 @@ body {
   border-color: #e2e8f0;
   z-index: 10;
   position: relative;
-=======
-  transition: background-color 150ms ease, box-shadow 150ms ease;
-}
-
-.table-row-hover:hover {
-  background-color: #f8fafc;
-  box-shadow: inset 3px 0 0 0 #3b82f6;
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 }
 
 /* --- Gradient Backgrounds --- */
 .gradient-primary {
-<<<<<<< HEAD
   background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
 }
 
@@ -153,49 +124,24 @@ body {
 
 .gradient-dark-sidebar {
   background: linear-gradient(180deg, #0b1120 0%, #0f172a 100%);
-=======
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-}
-
-.gradient-success {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-}
-
-.gradient-warning {
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-}
-
-.gradient-danger {
-  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 }
 
 /* --- Glass Effect --- */
 .glass {
-<<<<<<< HEAD
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-=======
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 }
 
 /* --- Recharts Custom --- */
 .recharts-tooltip-wrapper {
   outline: none !important;
-<<<<<<< HEAD
   z-index: 50;
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 }
 
 .recharts-default-tooltip {
   border-radius: 12px !important;
-<<<<<<< HEAD
   border: 1px solid rgba(255,255,255,0.5) !important;
   background: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(8px) !important;
@@ -211,9 +157,4 @@ body {
 
 .animate-pulse-glow {
   animation: pulse-glow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-=======
-  border: 1px solid #e2e8f0 !important;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1) !important;
-  padding: 12px 16px !important;
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 }

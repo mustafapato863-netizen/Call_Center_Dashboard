@@ -17,7 +17,6 @@ interface LocationProfitabilityChartProps {
 }
 
 const LocationProfitabilityChart = ({ data }: LocationProfitabilityChartProps) => {
-<<<<<<< HEAD
   const worstLocation = data.reduce((prev, current) => (prev.noShowRate > current.noShowRate) ? prev : current);
 
   return (
@@ -34,27 +33,13 @@ const LocationProfitabilityChart = ({ data }: LocationProfitabilityChartProps) =
         </div>
 
         <div className="flex items-center gap-4 mt-2 text-[11px]">
-=======
-  return (
-    <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 h-full flex flex-col">
-      <div className="mb-4">
-        <h3 className="text-sm font-bold text-slate-800 uppercase tracking-wide">
-          Location Profitability Matrix
-        </h3>
-        <div className="flex items-center gap-4 mt-1.5 text-[11px]">
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
           <div className="flex items-center gap-1.5">
             <div className="w-2.5 h-2.5 rounded-sm bg-blue-500" />
             <span className="text-slate-500 font-medium">Booking Volume</span>
           </div>
           <div className="flex items-center gap-1.5">
-<<<<<<< HEAD
             <div className="w-2.5 h-2.5 rounded-full bg-red-500" />
             <span className="text-slate-500 font-medium">No-Show Rate (%)</span>
-=======
-            <div className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
-            <span className="text-slate-500 font-medium">Conversion Rate (%)</span>
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
           </div>
         </div>
       </div>
@@ -93,11 +78,7 @@ const LocationProfitabilityChart = ({ data }: LocationProfitabilityChartProps) =
               tickLine={false}
               tickFormatter={(v: number) => `${v}`}
               label={{
-<<<<<<< HEAD
                 value: 'No-Show Rate (%)',
-=======
-                value: 'Conversion Rate (%)',
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
                 angle: 90,
                 position: 'insideRight',
                 offset: 10,
@@ -115,11 +96,7 @@ const LocationProfitabilityChart = ({ data }: LocationProfitabilityChartProps) =
                 fontSize: '12px',
               }}
               formatter={(value: number, name: string) => {
-<<<<<<< HEAD
                 if (name === 'noShowRate') return [`${value}%`, 'No-Show Rate'];
-=======
-                if (name === 'showUpRate') return [`${value}%`, 'Conversion Rate'];
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
                 return [value.toLocaleString(), 'Booking Volume'];
               }}
             />
@@ -134,7 +111,6 @@ const LocationProfitabilityChart = ({ data }: LocationProfitabilityChartProps) =
             <Line
               yAxisId="right"
               type="monotone"
-<<<<<<< HEAD
               dataKey="noShowRate"
               name="noShowRate"
               stroke="#ef4444"
@@ -146,19 +122,6 @@ const LocationProfitabilityChart = ({ data }: LocationProfitabilityChartProps) =
                 position="top"
                 formatter={(v: number) => `${v}%`}
                 style={{ fontSize: 11, fontWeight: 700, fill: '#dc2626' }}
-=======
-              dataKey="showUpRate"
-              name="showUpRate"
-              stroke="#10b981"
-              strokeWidth={2.5}
-              dot={{ r: 6, fill: '#10b981', strokeWidth: 3, stroke: '#fff' }}
-            >
-              <LabelList
-                dataKey="showUpRate"
-                position="top"
-                formatter={(v: number) => `${v}%`}
-                style={{ fontSize: 11, fontWeight: 700, fill: '#059669' }}
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
               />
             </Line>
             <Legend content={() => null} />

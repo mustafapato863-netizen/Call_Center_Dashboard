@@ -59,11 +59,8 @@ export interface LocationSummary {
 export interface ValueLeakageData {
   noShowRate: number;
   unconvertedRate: number;
-<<<<<<< HEAD
   lostVisits: number;
   lostCalls: number;
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 }
 
 export interface FunnelData {
@@ -217,11 +214,8 @@ export function usePerformanceData(month: MonthKey, location: LocationKey) {
     const valueLeakage: ValueLeakageData = {
       noShowRate: 1 - overallAttendRate,
       unconvertedRate: 1 - overallBookingRate,
-<<<<<<< HEAD
       lostVisits: grandTotals.totalBookings - grandTotals.totalAttended,
       lostCalls: grandTotals.totalHandled - grandTotals.totalBookings,
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
     };
 
     // Step 9: Strategic score
@@ -295,7 +289,6 @@ export function usePerformanceData(month: MonthKey, location: LocationKey) {
       ),
     };
 
-<<<<<<< HEAD
     // Step 13.5: Calculate Trends for Comparison
     let trends = null;
     const currMonthName = month === 'All' ? 'March' : month;
@@ -350,9 +343,6 @@ export function usePerformanceData(month: MonthKey, location: LocationKey) {
 
     return {
       trends,
-=======
-    return {
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
       agents: agentsWithLocationData,
       totalRows,
       monthSummaries,

@@ -1,16 +1,11 @@
 import { useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
-  Phone,
   CalendarCheck,
   UserCheck,
-  Percent,
   Award,
-<<<<<<< HEAD
   AlertOctagon,
   Clock
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 } from 'lucide-react';
 import { usePerformanceData, formatSecondsToMMSS } from '../hooks/usePerformanceData';
 import StatCard from '../components/common/StatCard';
@@ -20,21 +15,13 @@ import GrowthTrendChart from '../components/charts/GrowthTrendChart';
 import LocationProfitabilityChart from '../components/charts/LocationProfitabilityChart';
 import ValueLeakageChart from '../components/charts/ValueLeakageChart';
 import ExecutiveInsights from '../components/charts/ExecutiveInsights';
-<<<<<<< HEAD
 import AgentRanking from '../components/charts/AgentRanking';
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 import type { LocationKey, MonthKey } from '../types';
 
 function getGradeLabel(score: number): string {
   if (score >= 95) return 'Excellent';
-<<<<<<< HEAD
   if (score >= 90) return 'Very Good';
   if (score >= 80) return 'Good';
-=======
-  if (score >= 85) return 'Very Good';
-  if (score >= 75) return 'Good';
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
   if (score >= 60) return 'Average';
   return 'Below Average';
 }
@@ -45,11 +32,8 @@ const ExecutiveView = () => {
   const location = (searchParams.get('location') || 'all') as LocationKey;
 
   const {
-<<<<<<< HEAD
     agents,
     trends,
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
     grandTotals,
     funnelData,
     kpiVsTarget,
@@ -67,7 +51,6 @@ const ExecutiveView = () => {
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -20 }}
       transition={{ duration: 0.3 }}
-<<<<<<< HEAD
       className="p-4 md:p-8 max-w-[1600px] mx-auto space-y-8"
     >
       {/* ── Section 1: Executive Summary KPIs ── */}
@@ -129,41 +112,10 @@ const ExecutiveView = () => {
         />
 
         {/* 3. AHT */}
-=======
-      className="p-6 xl:p-8 max-w-[1600px] mx-auto space-y-6"
-    >
-      {/* ── Section 1: Executive Summary KPIs ── */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-        <StatCard
-          title="Total Calls"
-          value={grandTotals.totalHandled.toLocaleString()}
-          subtitle={`${grandTotals.inbound.toLocaleString()} inbound`}
-          icon={<Phone className="w-5 h-5" />}
-          color="blue"
-          delay={0}
-        />
-        <StatCard
-          title="Total Bookings"
-          value={grandTotals.totalBookings.toLocaleString()}
-          subtitle={`${(grandTotals.overallBookingRate * 100).toFixed(1)}% conversion`}
-          icon={<CalendarCheck className="w-5 h-5" />}
-          color="emerald"
-          delay={0.05}
-        />
-        <StatCard
-          title="Patients Attended"
-          value={grandTotals.totalAttended.toLocaleString()}
-          subtitle={`${(grandTotals.overallAttendRate * 100).toFixed(1)}% show-up`}
-          icon={<UserCheck className="w-5 h-5" />}
-          color="indigo"
-          delay={0.1}
-        />
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
         <StatCard
           title="Avg. Handle Time"
           value={formatSecondsToMMSS(avgAHTSeconds)}
           subtitle="Target: 2:30"
-<<<<<<< HEAD
           icon={<Clock className="w-5 h-5" />}
           color="amber"
           delay={0.2}
@@ -183,50 +135,25 @@ const ExecutiveView = () => {
           comparison={trends?.abandonRate}
           isPositive={trends?.abandonRatePositive}
           status={(grandTotals.overallAbandonRate * 100) <= 1 ? 'good' : 'bad'}
-=======
-          icon={<Percent className="w-5 h-5" />}
-          color="amber"
-          delay={0.15}
-        />
-        <StatCard
-          title="Performance Score"
-          value={`${strategicScore}/100`}
-          subtitle={getGradeLabel(strategicScore)}
-          icon={<Award className="w-5 h-5" />}
-          color="violet"
-          delay={0.2}
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
         />
       </div>
 
       {/* ── Section 2: Conversion Funnel ── */}
       <motion.div
-<<<<<<< HEAD
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1.0] }}
         className="glass rounded-2xl shadow-sm border border-slate-100/50"
-=======
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4, delay: 0.1 }}
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
       >
         <ConversionFunnel data={funnelData} />
       </motion.div>
 
       {/* ── Section 3: KPI vs Target ── */}
       <motion.div
-<<<<<<< HEAD
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4, ease: [0.25, 0.1, 0.25, 1.0] }}
         className="glass rounded-2xl shadow-sm border border-slate-100/50"
-=======
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4, delay: 0.15 }}
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
       >
         <KpiTargetChart data={kpiVsTarget} />
       </motion.div>
@@ -234,30 +161,18 @@ const ExecutiveView = () => {
       {/* ── Section 4: Growth Trend + Location Analysis ── */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <motion.div
-<<<<<<< HEAD
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5, ease: [0.25, 0.1, 0.25, 1.0] }}
           className="glass rounded-2xl shadow-sm border border-slate-100/50"
-=======
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.2 }}
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
         >
           <GrowthTrendChart data={cumulativeData} />
         </motion.div>
         <motion.div
-<<<<<<< HEAD
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6, ease: [0.25, 0.1, 0.25, 1.0] }}
           className="glass rounded-2xl shadow-sm border border-slate-100/50"
-=======
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.25 }}
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
         >
           <LocationProfitabilityChart data={locationSummaries} />
         </motion.div>
@@ -266,31 +181,18 @@ const ExecutiveView = () => {
       {/* ── Section 5: Value Leakage + Insights ── */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <motion.div
-<<<<<<< HEAD
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.7, ease: [0.25, 0.1, 0.25, 1.0] }}
           className="glass rounded-2xl shadow-sm border border-slate-100/50"
-=======
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.3 }}
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
         >
           <ValueLeakageChart data={valueLeakage} />
         </motion.div>
         <motion.div
-<<<<<<< HEAD
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.8, ease: [0.25, 0.1, 0.25, 1.0] }}
           className="lg:col-span-2 glass rounded-2xl shadow-sm border border-slate-100/50"
-=======
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.35 }}
-          className="lg:col-span-2"
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
         >
           <ExecutiveInsights
             monthSummaries={monthSummaries}
@@ -299,7 +201,6 @@ const ExecutiveView = () => {
           />
         </motion.div>
       </div>
-<<<<<<< HEAD
 
       {/* ── Section 6: Agent Ranking ── */}
       <motion.div
@@ -309,8 +210,6 @@ const ExecutiveView = () => {
       >
         <AgentRanking agents={agents} />
       </motion.div>
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
     </motion.div>
   );
 };

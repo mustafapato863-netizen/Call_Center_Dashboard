@@ -7,21 +7,15 @@ interface ValueLeakageChartProps {
 
 const DonutGauge = ({
   value,
-<<<<<<< HEAD
   absoluteValue,
   absoluteLabel,
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
   label,
   description,
   color,
 }: {
   value: number;
-<<<<<<< HEAD
   absoluteValue: number;
   absoluteLabel: string;
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
   label: string;
   description: string;
   color: string;
@@ -58,12 +52,9 @@ const DonutGauge = ({
         </div>
       </div>
       <p className="text-xs font-bold text-slate-700 mt-2 text-center">{label}</p>
-<<<<<<< HEAD
       <div className="bg-red-50 text-red-600 px-2 py-1 rounded-md text-[10px] font-bold mt-1">
         ~{absoluteValue.toLocaleString()} {absoluteLabel}
       </div>
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
       <p className="text-[10px] text-slate-400 mt-1 text-center max-w-[140px] leading-tight">
         {description}
       </p>
@@ -75,46 +66,27 @@ const ValueLeakageChart = ({ data }: ValueLeakageChartProps) => {
   return (
     <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 h-full flex flex-col">
       <h3 className="text-sm font-bold text-slate-800 uppercase tracking-wide mb-1">
-<<<<<<< HEAD
         Value Leakage (Business Impact)
       </h3>
       <div className="flex items-center gap-4 mb-4 text-[11px]">
         <span className="text-slate-500">
           <span className="font-bold text-slate-700">Total Lost Visits:</span>{' '}
           {data.lostVisits.toLocaleString()}
-=======
-        Value Leakage
-      </h3>
-      <div className="flex items-center gap-4 mb-4 text-[11px]">
-        <span className="text-slate-500">
-          <span className="font-bold text-slate-700">No-Show Loss:</span>{' '}
-          {(data.noShowRate * 100).toFixed(1)}%
-        </span>
-        <span className="text-slate-500">
-          <span className="font-bold text-slate-700">Unconverted Calls:</span>{' '}
-          {(data.unconvertedRate * 100).toFixed(1)}%
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
         </span>
       </div>
       <div className="flex-1 flex items-center justify-center gap-6">
         <DonutGauge
           value={data.noShowRate}
-<<<<<<< HEAD
           absoluteValue={data.lostVisits}
           absoluteLabel="Lost Visits"
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
           label="No-Show Loss"
           description="Patients who booked but did not attend their appointment"
           color="#ef4444"
         />
         <DonutGauge
           value={data.unconvertedRate}
-<<<<<<< HEAD
           absoluteValue={data.lostCalls}
           absoluteLabel="Lost Calls"
-=======
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
           label="Unconverted Calls"
           description="Handled calls that were not converted to patient bookings"
           color="#3b82f6"

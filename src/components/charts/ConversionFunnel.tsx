@@ -68,7 +68,6 @@ const ConversionFunnel = ({ data }: ConversionFunnelProps) => {
         </div>
       </div>
 
-<<<<<<< HEAD
       <div className="flex flex-col lg:flex-row items-center lg:items-stretch gap-3 lg:gap-3">
         {steps.map((step, i) => (
           <div key={step.key} className="flex flex-col lg:flex-row items-center gap-3 w-full lg:flex-1">
@@ -80,15 +79,6 @@ const ConversionFunnel = ({ data }: ConversionFunnelProps) => {
                 <svg className="lg:hidden w-5 h-5 text-slate-300 rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
-=======
-      <div className="flex items-center gap-3">
-        {steps.map((step, i) => (
-          <div key={step.key} className="flex items-center gap-3 flex-1">
-            {/* Conversion arrow between steps */}
-            {i > 0 && rates[i] && (
-              <div className="flex flex-col items-center gap-1 shrink-0 w-16">
-                <ArrowRight className="w-5 h-5 text-slate-300" />
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
                 <span className="text-[11px] font-bold text-emerald-600">
                   {(rates[i]!.rate * 100).toFixed(1)}%
                 </span>
@@ -103,11 +93,7 @@ const ConversionFunnel = ({ data }: ConversionFunnelProps) => {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.35, delay: i * 0.1 }}
-<<<<<<< HEAD
               className={`w-full lg:flex-1 ${step.bg} border ${step.border} rounded-2xl p-5 relative overflow-hidden flex flex-col justify-center min-h-[110px]`}
-=======
-              className={`flex-1 ${step.bg} border ${step.border} rounded-2xl p-5 relative overflow-hidden`}
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
             >
               {/* Background bar showing proportion */}
               <div
@@ -116,11 +102,7 @@ const ConversionFunnel = ({ data }: ConversionFunnelProps) => {
               />
 
               <div className="flex items-center gap-3 mb-3">
-<<<<<<< HEAD
                 <div className={`w-9 h-9 rounded-xl bg-gradient-to-br ${step.gradient} flex items-center justify-center shadow-md shrink-0`}>
-=======
-                <div className={`w-9 h-9 rounded-xl bg-gradient-to-br ${step.gradient} flex items-center justify-center shadow-md`}>
->>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
                   <step.icon className="w-4.5 h-4.5 text-white" />
                 </div>
                 <p className={`text-[11px] font-bold ${step.text} uppercase tracking-wider`}>

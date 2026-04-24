@@ -1,5 +1,6 @@
 import { Trophy, Clock, UserX } from 'lucide-react';
 import type { AgentWithLocation } from '../../hooks/usePerformanceData';
+import { parseAHTtoSeconds } from '../../hooks/usePerformanceData';
 
 interface AgentRankingProps {
   agents: AgentWithLocation[];
@@ -38,7 +39,7 @@ export default function AgentRanking({ agents }: AgentRankingProps) {
                High No-Show
              </div>
           )}
-          {agent.calls.aht_raw > '00:02:30' && (
+          {parseAHTtoSeconds(agent.calls.aht_raw) > 150 && (
             <div className="flex items-center gap-1 text-[9px] font-bold bg-rose-50 text-rose-600 px-2 py-0.5 rounded-full border border-rose-100">
               <Clock className="w-3 h-3" />
               High AHT
