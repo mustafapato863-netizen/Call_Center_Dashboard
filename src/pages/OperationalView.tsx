@@ -110,7 +110,11 @@ const OperationalView = () => {
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -20 }}
       transition={{ duration: 0.3 }}
+<<<<<<< HEAD
       className="p-4 md:p-8 max-w-[1600px] mx-auto space-y-6"
+=======
+      className="p-6 xl:p-8 max-w-[1600px] mx-auto space-y-6"
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
     >
       {/* ── Outlier Alerts ── */}
       <OutlierAlerts
@@ -120,6 +124,7 @@ const OperationalView = () => {
       />
 
       {/* ── Stats Bar + Search ── */}
+<<<<<<< HEAD
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 glass p-4 rounded-2xl shadow-sm border border-slate-100/50">
         <div className="flex items-center gap-6 flex-wrap">
           <div className="flex items-center gap-2.5">
@@ -152,25 +157,69 @@ const OperationalView = () => {
             <div className="w-2.5 h-2.5 rounded-full bg-red-500 shadow-[0_0_8px_rgba(239,68,68,0.5)]" />
             <span className="text-sm font-semibold text-slate-500 uppercase tracking-wider">Low (&lt;70%)</span>
             <span className="text-base font-black text-red-600">
+=======
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="flex items-center gap-5 flex-wrap">
+          <div className="flex items-center gap-2 text-sm">
+            <div className="w-2 h-2 rounded-full bg-blue-500" />
+            <span className="text-slate-500">Agents:</span>
+            <span className="font-bold text-slate-800">{filteredAgents.length}</span>
+          </div>
+          <div className="flex items-center gap-2 text-sm">
+            <div className="w-2 h-2 rounded-full bg-indigo-500" />
+            <span className="text-slate-500">Bookings:</span>
+            <span className="font-bold text-indigo-600">
+              {filteredAgents.reduce((s, a) => s + a.locationBookings, 0).toLocaleString()}
+            </span>
+          </div>
+          <div className="flex items-center gap-2 text-sm">
+            <div className="w-2 h-2 rounded-full bg-violet-500" />
+            <span className="text-slate-500">Attended:</span>
+            <span className="font-bold text-violet-600">
+              {filteredAgents.reduce((s, a) => s + a.locationAttended, 0).toLocaleString()}
+            </span>
+          </div>
+          <div className="flex items-center gap-2 text-sm">
+            <div className="w-2 h-2 rounded-full bg-emerald-500" />
+            <span className="text-slate-500">Top (≥90%):</span>
+            <span className="font-bold text-emerald-600">
+              {filteredAgents.filter((a) => a.evaluation.score >= 0.9).length}
+            </span>
+          </div>
+          <div className="flex items-center gap-2 text-sm">
+            <div className="w-2 h-2 rounded-full bg-red-500" />
+            <span className="text-slate-500">Low (&lt;70%):</span>
+            <span className="font-bold text-red-600">
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
               {filteredAgents.filter((a) => a.evaluation.score < 0.7).length}
             </span>
           </div>
         </div>
 
+<<<<<<< HEAD
         <div className="relative w-full sm:w-80 group">
           <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors" />
+=======
+        <div className="relative w-full sm:w-80">
+          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
           <input
             id="agent-search"
             type="text"
             placeholder="Search agents by name..."
             value={search}
             onChange={(e) => { setSearch(e.target.value); resetPage(); }}
+<<<<<<< HEAD
             className="w-full pl-11 pr-4 py-3 text-sm bg-white/60 border border-slate-200/80 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/30 focus:border-blue-400 transition-all placeholder:text-slate-400 shadow-sm hover:bg-white"
+=======
+            className="w-full pl-10 pr-4 py-2.5 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/30 focus:border-blue-400 transition-all placeholder:text-slate-400 shadow-sm"
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
           />
         </div>
       </div>
 
       {/* ── Agent Table ── */}
+<<<<<<< HEAD
       <div className="overflow-hidden">
         <div className="overflow-x-auto pb-4">
           <table className="w-full border-separate border-spacing-y-2" id="agent-table">
@@ -181,15 +230,34 @@ const OperationalView = () => {
                 <SortHeader field="month">Month</SortHeader>
                 <SortHeader field="score">Score</SortHeader>
                 <th className="px-4 py-3 text-left text-[11px] font-bold text-slate-400 uppercase tracking-wider">Grade</th>
+=======
+      <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="w-full" id="agent-table">
+            <thead>
+              <tr className="border-b border-slate-100 bg-slate-50/80">
+                <th className="px-4 py-3.5 text-left text-xs font-semibold text-slate-500 uppercase tracking-wider w-12">#</th>
+                <SortHeader field="name">Name</SortHeader>
+                <SortHeader field="month">Month</SortHeader>
+                <SortHeader field="score">Score</SortHeader>
+                <th className="px-4 py-3.5 text-left text-xs font-semibold text-slate-500 uppercase tracking-wider">Grade</th>
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
                 <SortHeader field="booking_rate">Booking %</SortHeader>
                 <SortHeader field="attend_rate">Attend %</SortHeader>
                 <SortHeader field="abandon_rate">Abandon %</SortHeader>
                 <SortHeader field="inbound">Inbound</SortHeader>
                 <SortHeader field="outbound">Outbound</SortHeader>
+<<<<<<< HEAD
                 <th className="px-4 py-3 text-left text-[11px] font-bold text-slate-400 uppercase tracking-wider">AHT</th>
               </tr>
             </thead>
             <tbody className="">
+=======
+                <th className="px-4 py-3.5 text-left text-xs font-semibold text-slate-500 uppercase tracking-wider">AHT</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-50">
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
               <AnimatePresence mode="popLayout">
                 {paginatedAgents.map((agent, i) => {
                   const rank = page * ROWS_PER_PAGE + i + 1;
@@ -199,6 +267,7 @@ const OperationalView = () => {
                   return (
                     <motion.tr
                       key={`${agent.identity.name}-${agent.identity.month}`}
+<<<<<<< HEAD
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, scale: 0.95 }}
@@ -212,10 +281,26 @@ const OperationalView = () => {
                             {agent.identity.name.split(' ').map(n => n[0]).slice(0, 2).join('')}
                           </div>
                           <span className="text-sm font-extrabold text-slate-800 truncate max-w-[200px]">
+=======
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 0.15, delay: i * 0.02 }}
+                      className={`table-row-hover ${rowBorder}`}
+                    >
+                      <td className="px-4 py-3.5 text-sm font-medium text-slate-400">{rank}</td>
+                      <td className="px-4 py-3.5">
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-xs font-bold text-slate-600 shrink-0">
+                            {agent.identity.name.split(' ').map(n => n[0]).slice(0, 2).join('')}
+                          </div>
+                          <span className="text-sm font-medium text-slate-800 truncate max-w-[200px]">
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
                             {agent.identity.name}
                           </span>
                         </div>
                       </td>
+<<<<<<< HEAD
                       <td className="px-4 py-4 text-sm font-medium text-slate-500 border-y border-transparent">{agent.identity.month}</td>
                       <td className="px-4 py-4 border-y border-transparent">
                         <span className={`inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-[11px] uppercase tracking-wider font-bold border shadow-sm ${scoreColor.badge}`}>
@@ -246,6 +331,38 @@ const OperationalView = () => {
                         {agent.calls.outbound.toLocaleString()}
                       </td>
                       <td className="px-4 py-4 text-sm text-slate-500 font-mono font-medium border-y border-r rounded-r-xl border-transparent">
+=======
+                      <td className="px-4 py-3.5 text-sm text-slate-600">{agent.identity.month}</td>
+                      <td className="px-4 py-3.5">
+                        <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold border ${scoreColor.badge}`}>
+                          <TrendingUp className="w-3 h-3" />
+                          {(agent.evaluation.score * 100).toFixed(1)}%
+                        </span>
+                      </td>
+                      <td className="px-4 py-3.5">
+                        <span className={`inline-block px-2.5 py-1 rounded-lg text-xs font-semibold border ${gradeColor}`}>
+                          {agent.evaluation.grade}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3.5 text-sm font-medium text-slate-700">
+                        {(agent.actual.booking_rate * 100).toFixed(1)}%
+                      </td>
+                      <td className="px-4 py-3.5 text-sm font-medium text-slate-700">
+                        {(agent.actual.attend_rate * 100).toFixed(1)}%
+                      </td>
+                      <td className="px-4 py-3.5">
+                        <span className={`text-sm font-medium ${agent.actual.abandon_rate > 0.01 ? 'text-red-600' : 'text-emerald-600'}`}>
+                          {(agent.actual.abandon_rate * 100).toFixed(2)}%
+                        </span>
+                      </td>
+                      <td className="px-4 py-3.5 text-sm text-slate-700 font-mono">
+                        {agent.calls.inbound.toLocaleString()}
+                      </td>
+                      <td className="px-4 py-3.5 text-sm text-slate-700 font-mono">
+                        {agent.calls.outbound.toLocaleString()}
+                      </td>
+                      <td className="px-4 py-3.5 text-sm text-slate-500 font-mono">
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
                         {formatAHT(agent.calls.aht_raw)}
                       </td>
                     </motion.tr>
@@ -258,6 +375,7 @@ const OperationalView = () => {
 
         {/* Pagination */}
         {totalPages > 1 && (
+<<<<<<< HEAD
           <div className="flex items-center justify-between px-2 py-4 mt-2 border-t border-slate-200/50">
             <p className="text-sm text-slate-500 font-medium">
               Showing <span className="font-extrabold text-slate-700">{page * ROWS_PER_PAGE + 1}</span>
@@ -266,24 +384,47 @@ const OperationalView = () => {
                 {Math.min((page + 1) * ROWS_PER_PAGE, filteredAgents.length)}
               </span>{' '}
               of <span className="font-extrabold text-slate-700">{filteredAgents.length}</span> agents
+=======
+          <div className="flex items-center justify-between px-6 py-4 border-t border-slate-100 bg-slate-50/50">
+            <p className="text-sm text-slate-500">
+              Showing <span className="font-semibold text-slate-700">{page * ROWS_PER_PAGE + 1}</span>
+              {' – '}
+              <span className="font-semibold text-slate-700">
+                {Math.min((page + 1) * ROWS_PER_PAGE, filteredAgents.length)}
+              </span>{' '}
+              of <span className="font-semibold text-slate-700">{filteredAgents.length}</span> agents
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
             </p>
             <div className="flex items-center gap-2">
               <button
                 id="pagination-prev"
                 onClick={() => setPage((p) => Math.max(0, p - 1))}
                 disabled={page === 0}
+<<<<<<< HEAD
                 className="p-2 rounded-xl border border-slate-200/80 text-slate-500 hover:bg-white hover:shadow-sm disabled:opacity-40 disabled:cursor-not-allowed transition-all"
               >
                 <ChevronLeft className="w-5 h-5" />
+=======
+                className="p-2 rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-100 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+              >
+                <ChevronLeft className="w-4 h-4" />
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
               </button>
               {Array.from({ length: totalPages }, (_, i) => (
                 <button
                   key={i}
                   onClick={() => setPage(i)}
+<<<<<<< HEAD
                   className={`w-10 h-10 rounded-xl text-sm font-bold transition-all ${
                     page === i
                       ? 'bg-blue-600 text-white shadow-[0_0_15px_rgba(59,130,246,0.4)]'
                       : 'text-slate-500 hover:bg-white hover:shadow-sm border border-transparent hover:border-slate-200/80'
+=======
+                  className={`w-9 h-9 rounded-lg text-sm font-medium transition-all ${
+                    page === i
+                      ? 'bg-blue-600 text-white shadow-md shadow-blue-200'
+                      : 'text-slate-500 hover:bg-slate-100'
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
                   }`}
                 >
                   {i + 1}
@@ -293,9 +434,15 @@ const OperationalView = () => {
                 id="pagination-next"
                 onClick={() => setPage((p) => Math.min(totalPages - 1, p + 1))}
                 disabled={page === totalPages - 1}
+<<<<<<< HEAD
                 className="p-2 rounded-xl border border-slate-200/80 text-slate-500 hover:bg-white hover:shadow-sm disabled:opacity-40 disabled:cursor-not-allowed transition-all"
               >
                 <ChevronRight className="w-5 h-5" />
+=======
+                className="p-2 rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-100 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+              >
+                <ChevronRight className="w-4 h-4" />
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
               </button>
             </div>
           </div>

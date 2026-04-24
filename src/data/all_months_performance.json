@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
         "identity": {
@@ -2239,4 +2240,2247 @@
             "grade": "N/A"
         }
     }
+=======
+[
+    {
+        "identity": {
+            "name": "Abdallah Abbas Shepl Hassan Shetia .",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 220,
+            "outbound": 1,
+            "total_handled": 256,
+            "abandoned": 2,
+            "aht_raw": "00:02:01"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 279,
+                "sharjah": 21,
+                "ajman": 77,
+                "clinics": 9
+            },
+            "attended": {
+                "dubai": 114,
+                "sharjah": 16,
+                "ajman": 50,
+                "clinics": 3
+            }
+        },
+        "actual": {
+            "booking_rate": 1.5078,
+            "attend_rate": 0.4741,
+            "abandon_rate": 0.0091
+        },
+        "achievement": {
+            "booking_ach": 3.3507,
+            "attend_ach": 0.6321
+        },
+        "evaluation": {
+            "score": 0.7425,
+            "grade": "Below average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Abdullatif Ahmad Ali",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 1223,
+            "outbound": 28,
+            "total_handled": 1346,
+            "abandoned": 15,
+            "aht_raw": "00:02:00"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 517,
+                "sharjah": 140,
+                "ajman": 311,
+                "clinics": 95
+            },
+            "attended": {
+                "dubai": 347,
+                "sharjah": 93,
+                "ajman": 211,
+                "clinics": 64
+            }
+        },
+        "actual": {
+            "booking_rate": 0.7897,
+            "attend_rate": 0.6726,
+            "abandon_rate": 0.0123
+        },
+        "achievement": {
+            "booking_ach": 1.7549,
+            "attend_ach": 0.8968
+        },
+        "evaluation": {
+            "score": 0.9093,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Abeer Omer Hassan Omer .",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 1954,
+            "outbound": 64,
+            "total_handled": 2046,
+            "abandoned": 28,
+            "aht_raw": "00:02:29"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 431,
+                "sharjah": 100,
+                "ajman": 366,
+                "clinics": 37
+            },
+            "attended": {
+                "dubai": 325,
+                "sharjah": 63,
+                "ajman": 257,
+                "clinics": 31
+            }
+        },
+        "actual": {
+            "booking_rate": 0.4565,
+            "attend_rate": 0.7238,
+            "abandon_rate": 0.0143
+        },
+        "achievement": {
+            "booking_ach": 1.0144,
+            "attend_ach": 0.9651
+        },
+        "evaluation": {
+            "score": 0.9453,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Ahmad Ali",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 2192,
+            "outbound": 136,
+            "total_handled": 2439,
+            "abandoned": 15,
+            "aht_raw": "00:02:23"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 696,
+                "sharjah": 150,
+                "ajman": 470,
+                "clinics": 120
+            },
+            "attended": {
+                "dubai": 508,
+                "sharjah": 113,
+                "ajman": 344,
+                "clinics": 88
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5888,
+            "attend_rate": 0.7333,
+            "abandon_rate": 0.0068
+        },
+        "achievement": {
+            "booking_ach": 1.3084,
+            "attend_ach": 0.9777
+        },
+        "evaluation": {
+            "score": 0.9844,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Ali Jack Ebrahim",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 2184,
+            "outbound": 129,
+            "total_handled": 2527,
+            "abandoned": 12,
+            "aht_raw": "00:02:11"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 626,
+                "sharjah": 158,
+                "ajman": 491,
+                "clinics": 163
+            },
+            "attended": {
+                "dubai": 441,
+                "sharjah": 102,
+                "ajman": 340,
+                "clinics": 115
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5691,
+            "attend_rate": 0.694,
+            "abandon_rate": 0.0055
+        },
+        "achievement": {
+            "booking_ach": 1.2647,
+            "attend_ach": 0.9253
+        },
+        "evaluation": {
+            "score": 0.9478,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Anfal Abdelrahman Abakar Mustafa .",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 2755,
+            "outbound": 180,
+            "total_handled": 2977,
+            "abandoned": 26,
+            "aht_raw": "00:02:41"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 758,
+                "sharjah": 207,
+                "ajman": 632,
+                "clinics": 92
+            },
+            "attended": {
+                "dubai": 558,
+                "sharjah": 139,
+                "ajman": 436,
+                "clinics": 69
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5673,
+            "attend_rate": 0.7117,
+            "abandon_rate": 0.0094
+        },
+        "achievement": {
+            "booking_ach": 1.2607,
+            "attend_ach": 0.9489
+        },
+        "evaluation": {
+            "score": 0.9642,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Fatima Zahra",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 1197,
+            "outbound": 61,
+            "total_handled": 1528,
+            "abandoned": 14,
+            "aht_raw": "00:02:05"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 447,
+                "sharjah": 80,
+                "ajman": 282,
+                "clinics": 185
+            },
+            "attended": {
+                "dubai": 306,
+                "sharjah": 45,
+                "ajman": 190,
+                "clinics": 122
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6505,
+            "attend_rate": 0.667,
+            "abandon_rate": 0.0117
+        },
+        "achievement": {
+            "booking_ach": 1.4456,
+            "attend_ach": 0.8893
+        },
+        "evaluation": {
+            "score": 0.908,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Janice",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 2818,
+            "outbound": 205,
+            "total_handled": 3142,
+            "abandoned": 13,
+            "aht_raw": "00:02:11"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 1102,
+                "sharjah": 81,
+                "ajman": 236,
+                "clinics": 129
+            },
+            "attended": {
+                "dubai": 830,
+                "sharjah": 60,
+                "ajman": 169,
+                "clinics": 95
+            }
+        },
+        "actual": {
+            "booking_rate": 0.4927,
+            "attend_rate": 0.7455,
+            "abandon_rate": 0.0046
+        },
+        "achievement": {
+            "booking_ach": 1.0949,
+            "attend_ach": 0.994
+        },
+        "evaluation": {
+            "score": 0.9958,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Joud Khaled Bakour .",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 3303,
+            "outbound": 223,
+            "total_handled": 3549,
+            "abandoned": 29,
+            "aht_raw": "00:02:13"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 685,
+                "sharjah": 253,
+                "ajman": 741,
+                "clinics": 63
+            },
+            "attended": {
+                "dubai": 479,
+                "sharjah": 178,
+                "ajman": 500,
+                "clinics": 48
+            }
+        },
+        "actual": {
+            "booking_rate": 0.4908,
+            "attend_rate": 0.6917,
+            "abandon_rate": 0.0088
+        },
+        "achievement": {
+            "booking_ach": 1.0907,
+            "attend_ach": 0.9223
+        },
+        "evaluation": {
+            "score": 0.9456,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Katherenne",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 2768,
+            "outbound": 124,
+            "total_handled": 3041,
+            "abandoned": 14,
+            "aht_raw": "00:02:11"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 789,
+                "sharjah": 182,
+                "ajman": 489,
+                "clinics": 116
+            },
+            "attended": {
+                "dubai": 586,
+                "sharjah": 139,
+                "ajman": 344,
+                "clinics": 79
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5183,
+            "attend_rate": 0.7284,
+            "abandon_rate": 0.0051
+        },
+        "achievement": {
+            "booking_ach": 1.1518,
+            "attend_ach": 0.9712
+        },
+        "evaluation": {
+            "score": 0.9799,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mahmoud Muhammed Ali Abdul Salam .",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 2644,
+            "outbound": 159,
+            "total_handled": 2837,
+            "abandoned": 22,
+            "aht_raw": "00:02:58"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 651,
+                "sharjah": 215,
+                "ajman": 692,
+                "clinics": 38
+            },
+            "attended": {
+                "dubai": 459,
+                "sharjah": 136,
+                "ajman": 473,
+                "clinics": 23
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5626,
+            "attend_rate": 0.6836,
+            "abandon_rate": 0.0083
+        },
+        "achievement": {
+            "booking_ach": 1.2502,
+            "attend_ach": 0.9115
+        },
+        "evaluation": {
+            "score": 0.938,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mahmoued amer",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 1716,
+            "outbound": 0,
+            "total_handled": 1781,
+            "abandoned": 16,
+            "aht_raw": "00:02:03"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 529,
+                "sharjah": 444,
+                "ajman": 417,
+                "clinics": 71
+            },
+            "attended": {
+                "dubai": 349,
+                "sharjah": 234,
+                "ajman": 259,
+                "clinics": 28
+            }
+        },
+        "actual": {
+            "booking_rate": 0.8203,
+            "attend_rate": 0.5955,
+            "abandon_rate": 0.0093
+        },
+        "achievement": {
+            "booking_ach": 1.8229,
+            "attend_ach": 0.794
+        },
+        "evaluation": {
+            "score": 0.8558,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Marita Ninalga",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 3579,
+            "outbound": 228,
+            "total_handled": 3925,
+            "abandoned": 23,
+            "aht_raw": "00:01:55"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 895,
+                "sharjah": 196,
+                "ajman": 540,
+                "clinics": 100
+            },
+            "attended": {
+                "dubai": 677,
+                "sharjah": 141,
+                "ajman": 387,
+                "clinics": 91
+            }
+        },
+        "actual": {
+            "booking_rate": 0.441,
+            "attend_rate": 0.7487,
+            "abandon_rate": 0.0064
+        },
+        "achievement": {
+            "booking_ach": 0.98,
+            "attend_ach": 0.9983
+        },
+        "evaluation": {
+            "score": 0.9948,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mohamed Ahmed soliman",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 2128,
+            "outbound": 0,
+            "total_handled": 2420,
+            "abandoned": 32,
+            "aht_raw": "00:02:54"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 878,
+                "sharjah": 201,
+                "ajman": 570,
+                "clinics": 87
+            },
+            "attended": {
+                "dubai": 616,
+                "sharjah": 149,
+                "ajman": 376,
+                "clinics": 69
+            }
+        },
+        "actual": {
+            "booking_rate": 0.7174,
+            "attend_rate": 0.697,
+            "abandon_rate": 0.015
+        },
+        "achievement": {
+            "booking_ach": 1.5942,
+            "attend_ach": 0.9293
+        },
+        "evaluation": {
+            "score": 0.917,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "MOHAMED Qandeel",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 2768,
+            "outbound": 149,
+            "total_handled": 2925,
+            "abandoned": 19,
+            "aht_raw": "00:02:55"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 803,
+                "sharjah": 210,
+                "ajman": 662,
+                "clinics": 106
+            },
+            "attended": {
+                "dubai": 589,
+                "sharjah": 150,
+                "ajman": 450,
+                "clinics": 89
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6089,
+            "attend_rate": 0.7176,
+            "abandon_rate": 0.0069
+        },
+        "achievement": {
+            "booking_ach": 1.3531,
+            "attend_ach": 0.9568
+        },
+        "evaluation": {
+            "score": 0.9697,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mona Abdelsalam",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 2141,
+            "outbound": 108,
+            "total_handled": 2511,
+            "abandoned": 27,
+            "aht_raw": "00:02:11"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 763,
+                "sharjah": 156,
+                "ajman": 498,
+                "clinics": 188
+            },
+            "attended": {
+                "dubai": 571,
+                "sharjah": 111,
+                "ajman": 342,
+                "clinics": 134
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6392,
+            "attend_rate": 0.7215,
+            "abandon_rate": 0.0126
+        },
+        "achievement": {
+            "booking_ach": 1.4204,
+            "attend_ach": 0.962
+        },
+        "evaluation": {
+            "score": 0.9527,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Samantha",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 1808,
+            "outbound": 174,
+            "total_handled": 2021,
+            "abandoned": 12,
+            "aht_raw": "00:02:49"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 680,
+                "sharjah": 37,
+                "ajman": 122,
+                "clinics": 99
+            },
+            "attended": {
+                "dubai": 508,
+                "sharjah": 28,
+                "ajman": 82,
+                "clinics": 75
+            }
+        },
+        "actual": {
+            "booking_rate": 0.4641,
+            "attend_rate": 0.7388,
+            "abandon_rate": 0.0066
+        },
+        "achievement": {
+            "booking_ach": 1.0313,
+            "attend_ach": 0.9851
+        },
+        "evaluation": {
+            "score": 0.9896,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Teresa Pangilinan",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 3320,
+            "outbound": 148,
+            "total_handled": 3671,
+            "abandoned": 22,
+            "aht_raw": "00:02:10"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 998,
+                "sharjah": 188,
+                "ajman": 682,
+                "clinics": 89
+            },
+            "attended": {
+                "dubai": 705,
+                "sharjah": 137,
+                "ajman": 496,
+                "clinics": 72
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5331,
+            "attend_rate": 0.7205,
+            "abandon_rate": 0.0066
+        },
+        "achievement": {
+            "booking_ach": 1.1847,
+            "attend_ach": 0.9607
+        },
+        "evaluation": {
+            "score": 0.9725,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Yathrib Ahmed Almustafa Alageb Gobara .",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 1696,
+            "outbound": 118,
+            "total_handled": 1852,
+            "abandoned": 28,
+            "aht_raw": "00:03:00"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 462,
+                "sharjah": 132,
+                "ajman": 441,
+                "clinics": 61
+            },
+            "attended": {
+                "dubai": 342,
+                "sharjah": 85,
+                "ajman": 291,
+                "clinics": 36
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5918,
+            "attend_rate": 0.688,
+            "abandon_rate": 0.0165
+        },
+        "achievement": {
+            "booking_ach": 1.3151,
+            "attend_ach": 0.9173
+        },
+        "evaluation": {
+            "score": 0.9027,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Total",
+            "month": "January"
+        },
+        "calls": {
+            "inbound": 42414,
+            "outbound": 2235,
+            "total_handled": 46794,
+            "abandoned": 369,
+            "aht_raw": "00:02:23.158000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 12989,
+                "sharjah": 3151,
+                "ajman": 8719,
+                "clinics": 1848
+            },
+            "attended": {
+                "dubai": 9310,
+                "sharjah": 2119,
+                "ajman": 5997,
+                "clinics": 1331
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5707,
+            "attend_rate": 0.7023,
+            "abandon_rate": 0.0087
+        },
+        "achievement": {
+            "booking_ach": 1.2682,
+            "attend_ach": 0.9364
+        },
+        "evaluation": {
+            "score": 0.965,
+            "grade": "N/A"
+        }
+    },
+    {
+        "identity": {
+            "name": "Abeer Omer Hassan Omer .",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 2542,
+            "outbound": 68,
+            "total_handled": 2651,
+            "abandoned": 34,
+            "aht_raw": "00:02:23.604000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 504,
+                "sharjah": 123,
+                "ajman": 451,
+                "clinics": 58
+            },
+            "attended": {
+                "dubai": 378,
+                "sharjah": 91,
+                "ajman": 298,
+                "clinics": 49
+            }
+        },
+        "actual": {
+            "booking_rate": 0.4285,
+            "attend_rate": 0.7183,
+            "abandon_rate": 0.0134
+        },
+        "achievement": {
+            "booking_ach": 0.9522,
+            "attend_ach": 0.9577
+        },
+        "evaluation": {
+            "score": 0.888,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Ahmad Ali",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 1115,
+            "outbound": 67,
+            "total_handled": 1358,
+            "abandoned": 12,
+            "aht_raw": "00:02:22.511000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 362,
+                "sharjah": 95,
+                "ajman": 345,
+                "clinics": 49
+            },
+            "attended": {
+                "dubai": 235,
+                "sharjah": 70,
+                "ajman": 210,
+                "clinics": 36
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6267,
+            "attend_rate": 0.6475,
+            "abandon_rate": 0.0108
+        },
+        "achievement": {
+            "booking_ach": 1.3927,
+            "attend_ach": 0.8633
+        },
+        "evaluation": {
+            "score": 0.8972,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Ali Jack Ebrahim",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 1495,
+            "outbound": 131,
+            "total_handled": 1933,
+            "abandoned": 13,
+            "aht_raw": "00:01:58.312000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 485,
+                "sharjah": 155,
+                "ajman": 341,
+                "clinics": 97
+            },
+            "attended": {
+                "dubai": 335,
+                "sharjah": 107,
+                "ajman": 221,
+                "clinics": 68
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5577,
+            "attend_rate": 0.6781,
+            "abandon_rate": 0.0087
+        },
+        "achievement": {
+            "booking_ach": 1.2393,
+            "attend_ach": 0.9041
+        },
+        "evaluation": {
+            "score": 0.9188,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Anfal Abdelrahman Abakar Mustafa .",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 2523,
+            "outbound": 138,
+            "total_handled": 2729,
+            "abandoned": 24,
+            "aht_raw": "00:02:25.785000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 710,
+                "sharjah": 172,
+                "ajman": 631,
+                "clinics": 79
+            },
+            "attended": {
+                "dubai": 492,
+                "sharjah": 120,
+                "ajman": 397,
+                "clinics": 64
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5834,
+            "attend_rate": 0.674,
+            "abandon_rate": 0.0095
+        },
+        "achievement": {
+            "booking_ach": 1.2964,
+            "attend_ach": 0.8987
+        },
+        "evaluation": {
+            "score": 0.9235,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Fatima Zahra",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 917,
+            "outbound": 48,
+            "total_handled": 1145,
+            "abandoned": 12,
+            "aht_raw": "00:01:54.129000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 297,
+                "sharjah": 78,
+                "ajman": 199,
+                "clinics": 52
+            },
+            "attended": {
+                "dubai": 202,
+                "sharjah": 53,
+                "ajman": 128,
+                "clinics": 38
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5467,
+            "attend_rate": 0.6725,
+            "abandon_rate": 0.0131
+        },
+        "achievement": {
+            "booking_ach": 1.2149,
+            "attend_ach": 0.8967
+        },
+        "evaluation": {
+            "score": 0.8863,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Janice",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 1196,
+            "outbound": 73,
+            "total_handled": 1345,
+            "abandoned": 7,
+            "aht_raw": "00:02:11.324000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 506,
+                "sharjah": 53,
+                "ajman": 128,
+                "clinics": 62
+            },
+            "attended": {
+                "dubai": 363,
+                "sharjah": 39,
+                "ajman": 72,
+                "clinics": 51
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5569,
+            "attend_rate": 0.7009,
+            "abandon_rate": 0.0059
+        },
+        "achievement": {
+            "booking_ach": 1.2376,
+            "attend_ach": 0.9345
+        },
+        "evaluation": {
+            "score": 0.9398,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Joud Khaled Bakour .",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 2817,
+            "outbound": 227,
+            "total_handled": 3070,
+            "abandoned": 25,
+            "aht_raw": "00:02:01.973000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 665,
+                "sharjah": 177,
+                "ajman": 664,
+                "clinics": 90
+            },
+            "attended": {
+                "dubai": 458,
+                "sharjah": 112,
+                "ajman": 418,
+                "clinics": 62
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5199,
+            "attend_rate": 0.6579,
+            "abandon_rate": 0.0089
+        },
+        "achievement": {
+            "booking_ach": 1.1553,
+            "attend_ach": 0.8772
+        },
+        "evaluation": {
+            "score": 0.8873,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Katherenne",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 2647,
+            "outbound": 182,
+            "total_handled": 2874,
+            "abandoned": 10,
+            "aht_raw": "00:02:11.228000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 757,
+                "sharjah": 157,
+                "ajman": 621,
+                "clinics": 101
+            },
+            "attended": {
+                "dubai": 551,
+                "sharjah": 111,
+                "ajman": 420,
+                "clinics": 77
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5692,
+            "attend_rate": 0.7084,
+            "abandon_rate": 0.0038
+        },
+        "achievement": {
+            "booking_ach": 1.2649,
+            "attend_ach": 0.9445
+        },
+        "evaluation": {
+            "score": 0.951,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mahmoud Muhammed Ali Abdul Salam .",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 1871,
+            "outbound": 78,
+            "total_handled": 2091,
+            "abandoned": 11,
+            "aht_raw": "00:02:38.497000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 508,
+                "sharjah": 176,
+                "ajman": 618,
+                "clinics": 37
+            },
+            "attended": {
+                "dubai": 326,
+                "sharjah": 136,
+                "ajman": 385,
+                "clinics": 19
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6404,
+            "attend_rate": 0.6468,
+            "abandon_rate": 0.0059
+        },
+        "achievement": {
+            "booking_ach": 1.4231,
+            "attend_ach": 0.8624
+        },
+        "evaluation": {
+            "score": 0.9036,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mahmoued amer",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 1501,
+            "outbound": 4,
+            "total_handled": 1595,
+            "abandoned": 7,
+            "aht_raw": "00:01:55.430000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 423,
+                "sharjah": 354,
+                "ajman": 506,
+                "clinics": 25
+            },
+            "attended": {
+                "dubai": 259,
+                "sharjah": 190,
+                "ajman": 310,
+                "clinics": 20
+            }
+        },
+        "actual": {
+            "booking_rate": 0.8201,
+            "attend_rate": 0.5956,
+            "abandon_rate": 0.0047
+        },
+        "achievement": {
+            "booking_ach": 1.8224,
+            "attend_ach": 0.7941
+        },
+        "evaluation": {
+            "score": 0.8559,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Marita Ninalga",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 2826,
+            "outbound": 310,
+            "total_handled": 3186,
+            "abandoned": 16,
+            "aht_raw": "00:01:46.685000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 681,
+                "sharjah": 146,
+                "ajman": 489,
+                "clinics": 95
+            },
+            "attended": {
+                "dubai": 522,
+                "sharjah": 102,
+                "ajman": 317,
+                "clinics": 77
+            }
+        },
+        "actual": {
+            "booking_rate": 0.4429,
+            "attend_rate": 0.7215,
+            "abandon_rate": 0.0057
+        },
+        "achievement": {
+            "booking_ach": 0.9842,
+            "attend_ach": 0.962
+        },
+        "evaluation": {
+            "score": 0.921,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "MOHAMED Qandeel",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 2456,
+            "outbound": 206,
+            "total_handled": 2666,
+            "abandoned": 18,
+            "aht_raw": "00:02:42.668000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 703,
+                "sharjah": 155,
+                "ajman": 576,
+                "clinics": 98
+            },
+            "attended": {
+                "dubai": 514,
+                "sharjah": 109,
+                "ajman": 382,
+                "clinics": 79
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5746,
+            "attend_rate": 0.7076,
+            "abandon_rate": 0.0073
+        },
+        "achievement": {
+            "booking_ach": 1.2769,
+            "attend_ach": 0.9435
+        },
+        "evaluation": {
+            "score": 0.9519,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mohamed Ahmed soliman",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 1483,
+            "outbound": 73,
+            "total_handled": 1878,
+            "abandoned": 11,
+            "aht_raw": "00:02:37.635000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 539,
+                "sharjah": 140,
+                "ajman": 394,
+                "clinics": 62
+            },
+            "attended": {
+                "dubai": 374,
+                "sharjah": 102,
+                "ajman": 226,
+                "clinics": 47
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6044,
+            "attend_rate": 0.6599,
+            "abandon_rate": 0.0074
+        },
+        "achievement": {
+            "booking_ach": 1.3431,
+            "attend_ach": 0.8799
+        },
+        "evaluation": {
+            "score": 0.9159,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mona Abdelsalam",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 1562,
+            "outbound": 90,
+            "total_handled": 1873,
+            "abandoned": 17,
+            "aht_raw": "00:02:10.813000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 542,
+                "sharjah": 121,
+                "ajman": 364,
+                "clinics": 74
+            },
+            "attended": {
+                "dubai": 402,
+                "sharjah": 91,
+                "ajman": 251,
+                "clinics": 63
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5878,
+            "attend_rate": 0.733,
+            "abandon_rate": 0.0109
+        },
+        "achievement": {
+            "booking_ach": 1.3062,
+            "attend_ach": 0.9773
+        },
+        "evaluation": {
+            "score": 0.9719,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Samantha",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 1731,
+            "outbound": 421,
+            "total_handled": 2173,
+            "abandoned": 17,
+            "aht_raw": "00:02:33.769000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 655,
+                "sharjah": 46,
+                "ajman": 150,
+                "clinics": 91
+            },
+            "attended": {
+                "dubai": 465,
+                "sharjah": 31,
+                "ajman": 94,
+                "clinics": 68
+            }
+        },
+        "actual": {
+            "booking_rate": 0.4335,
+            "attend_rate": 0.6985,
+            "abandon_rate": 0.0098
+        },
+        "achievement": {
+            "booking_ach": 0.9633,
+            "attend_ach": 0.9313
+        },
+        "evaluation": {
+            "score": 0.8964,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Teresa Pangilinan",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 2636,
+            "outbound": 211,
+            "total_handled": 2952,
+            "abandoned": 15,
+            "aht_raw": "00:02:03.070000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 665,
+                "sharjah": 178,
+                "ajman": 628,
+                "clinics": 81
+            },
+            "attended": {
+                "dubai": 477,
+                "sharjah": 123,
+                "ajman": 411,
+                "clinics": 59
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5257,
+            "attend_rate": 0.6894,
+            "abandon_rate": 0.0057
+        },
+        "achievement": {
+            "booking_ach": 1.1682,
+            "attend_ach": 0.9192
+        },
+        "evaluation": {
+            "score": 0.9187,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Yathrib Ahmed Almustafa Alageb Gobara .",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 1215,
+            "outbound": 159,
+            "total_handled": 1403,
+            "abandoned": 24,
+            "aht_raw": "00:02:26.027000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 337,
+                "sharjah": 80,
+                "ajman": 312,
+                "clinics": 47
+            },
+            "attended": {
+                "dubai": 228,
+                "sharjah": 58,
+                "ajman": 192,
+                "clinics": 32
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5531,
+            "attend_rate": 0.6572,
+            "abandon_rate": 0.0198
+        },
+        "achievement": {
+            "booking_ach": 1.2291,
+            "attend_ach": 0.8763
+        },
+        "evaluation": {
+            "score": 0.8484,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Total",
+            "month": "February"
+        },
+        "calls": {
+            "inbound": 32533,
+            "outbound": 2486,
+            "total_handled": 36922,
+            "abandoned": 273,
+            "aht_raw": "00:02:15.498000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 9339,
+                "sharjah": 2406,
+                "ajman": 7417,
+                "clinics": 1198
+            },
+            "attended": {
+                "dubai": 6581,
+                "sharjah": 1645,
+                "ajman": 4732,
+                "clinics": 909
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5514,
+            "attend_rate": 0.6811,
+            "abandon_rate": 0.0084
+        },
+        "achievement": {
+            "booking_ach": 1.2253,
+            "attend_ach": 0.9081
+        },
+        "evaluation": {
+            "score": 0.9252,
+            "grade": "N/A"
+        }
+    },
+    {
+        "identity": {
+            "name": "Abeer Omer Hassan Omer .",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 974,
+            "outbound": 45,
+            "total_handled": 1064,
+            "abandoned": 11,
+            "aht_raw": "00:02:05.333000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 195,
+                "sharjah": 57,
+                "ajman": 134,
+                "clinics": 13
+            },
+            "attended": {
+                "dubai": 144,
+                "sharjah": 38,
+                "ajman": 83,
+                "clinics": 11
+            }
+        },
+        "actual": {
+            "booking_rate": 0.375,
+            "attend_rate": 0.6917,
+            "abandon_rate": 0.0113
+        },
+        "achievement": {
+            "booking_ach": 0.8333,
+            "attend_ach": 0.9223
+        },
+        "evaluation": {
+            "score": 0.8592,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Ahmad Ali",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1302,
+            "outbound": 48,
+            "total_handled": 1549,
+            "abandoned": 17,
+            "aht_raw": "00:01:56"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 431,
+                "sharjah": 202,
+                "ajman": 377,
+                "clinics": 23
+            },
+            "attended": {
+                "dubai": 276,
+                "sharjah": 109,
+                "ajman": 246,
+                "clinics": 19
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6669,
+            "attend_rate": 0.6292,
+            "abandon_rate": 0.0131
+        },
+        "achievement": {
+            "booking_ach": 1.482,
+            "attend_ach": 0.8389
+        },
+        "evaluation": {
+            "score": 0.8639,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Ali Jack Ebrahim",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1000,
+            "outbound": 48,
+            "total_handled": 1323,
+            "abandoned": 13,
+            "aht_raw": "00:01:48.389000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 339,
+                "sharjah": 109,
+                "ajman": 329,
+                "clinics": 47
+            },
+            "attended": {
+                "dubai": 208,
+                "sharjah": 56,
+                "ajman": 196,
+                "clinics": 32
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6228,
+            "attend_rate": 0.5971,
+            "abandon_rate": 0.013
+        },
+        "achievement": {
+            "booking_ach": 1.384,
+            "attend_ach": 0.7961
+        },
+        "evaluation": {
+            "score": 0.8342,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Anfal Abdelrahman Abakar Mustafa .",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1753,
+            "outbound": 32,
+            "total_handled": 1892,
+            "abandoned": 16,
+            "aht_raw": "00:02:03.099000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 454,
+                "sharjah": 141,
+                "ajman": 354,
+                "clinics": 70
+            },
+            "attended": {
+                "dubai": 302,
+                "sharjah": 86,
+                "ajman": 231,
+                "clinics": 49
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5386,
+            "attend_rate": 0.6555,
+            "abandon_rate": 0.0091
+        },
+        "achievement": {
+            "booking_ach": 1.1969,
+            "attend_ach": 0.874
+        },
+        "evaluation": {
+            "score": 0.8914,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Fatima Zahra",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1552,
+            "outbound": 23,
+            "total_handled": 1648,
+            "abandoned": 18,
+            "aht_raw": "00:01:52.595000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 355,
+                "sharjah": 299,
+                "ajman": 411,
+                "clinics": 18
+            },
+            "attended": {
+                "dubai": 209,
+                "sharjah": 151,
+                "ajman": 249,
+                "clinics": 10
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6572,
+            "attend_rate": 0.5716,
+            "abandon_rate": 0.0116
+        },
+        "achievement": {
+            "booking_ach": 1.4604,
+            "attend_ach": 0.7621
+        },
+        "evaluation": {
+            "score": 0.8197,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Janice",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 242,
+            "outbound": 1,
+            "total_handled": 256,
+            "abandoned": 1,
+            "aht_raw": "00:02:29.492000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 33,
+                "sharjah": 5,
+                "ajman": 29,
+                "clinics": 3
+            },
+            "attended": {
+                "dubai": 26,
+                "sharjah": 3,
+                "ajman": 17,
+                "clinics": 2
+            }
+        },
+        "actual": {
+            "booking_rate": 0.2734,
+            "attend_rate": 0.6857,
+            "abandon_rate": 0.0041
+        },
+        "achievement": {
+            "booking_ach": 0.6076,
+            "attend_ach": 0.9143
+        },
+        "evaluation": {
+            "score": 0.8311,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Joud Khaled Bakour .",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1678,
+            "outbound": 110,
+            "total_handled": 1812,
+            "abandoned": 17,
+            "aht_raw": "00:02:02.735000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 375,
+                "sharjah": 117,
+                "ajman": 363,
+                "clinics": 63
+            },
+            "attended": {
+                "dubai": 267,
+                "sharjah": 80,
+                "ajman": 243,
+                "clinics": 47
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5066,
+            "attend_rate": 0.6939,
+            "abandon_rate": 0.0101
+        },
+        "achievement": {
+            "booking_ach": 1.1258,
+            "attend_ach": 0.9252
+        },
+        "evaluation": {
+            "score": 0.9152,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Katherenne",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1801,
+            "outbound": 63,
+            "total_handled": 1886,
+            "abandoned": 10,
+            "aht_raw": "00:02:24.117000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 395,
+                "sharjah": 109,
+                "ajman": 418,
+                "clinics": 42
+            },
+            "attended": {
+                "dubai": 266,
+                "sharjah": 68,
+                "ajman": 260,
+                "clinics": 31
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5111,
+            "attend_rate": 0.6483,
+            "abandon_rate": 0.0056
+        },
+        "achievement": {
+            "booking_ach": 1.1358,
+            "attend_ach": 0.8644
+        },
+        "evaluation": {
+            "score": 0.8755,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mahmoud Muhammed Ali Abdul Salam .",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1167,
+            "outbound": 43,
+            "total_handled": 1252,
+            "abandoned": 7,
+            "aht_raw": "00:02:30.887000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 267,
+                "sharjah": 138,
+                "ajman": 459,
+                "clinics": 10
+            },
+            "attended": {
+                "dubai": 174,
+                "sharjah": 88,
+                "ajman": 272,
+                "clinics": 7
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6981,
+            "attend_rate": 0.619,
+            "abandon_rate": 0.006
+        },
+        "achievement": {
+            "booking_ach": 1.5513,
+            "attend_ach": 0.8253
+        },
+        "evaluation": {
+            "score": 0.8777,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mahmoued amer",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 228,
+            "outbound": 7,
+            "total_handled": 243,
+            "abandoned": 0,
+            "aht_raw": "00:02:41.160000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 61,
+                "sharjah": 38,
+                "ajman": 77,
+                "clinics": 0
+            },
+            "attended": {
+                "dubai": 38,
+                "sharjah": 15,
+                "ajman": 47,
+                "clinics": 0
+            }
+        },
+        "actual": {
+            "booking_rate": 0.7243,
+            "attend_rate": 0.5682,
+            "abandon_rate": 0.0
+        },
+        "achievement": {
+            "booking_ach": 1.6096,
+            "attend_ach": 0.7576
+        },
+        "evaluation": {
+            "score": 0.8303,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Marita Ninalga",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 2614,
+            "outbound": 160,
+            "total_handled": 2827,
+            "abandoned": 14,
+            "aht_raw": "00:01:54.715000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 619,
+                "sharjah": 140,
+                "ajman": 387,
+                "clinics": 74
+            },
+            "attended": {
+                "dubai": 453,
+                "sharjah": 81,
+                "ajman": 233,
+                "clinics": 56
+            }
+        },
+        "actual": {
+            "booking_rate": 0.4316,
+            "attend_rate": 0.6746,
+            "abandon_rate": 0.0054
+        },
+        "achievement": {
+            "booking_ach": 0.9591,
+            "attend_ach": 0.8995
+        },
+        "evaluation": {
+            "score": 0.8735,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "MOHAMED Qandeel",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 2127,
+            "outbound": 136,
+            "total_handled": 2277,
+            "abandoned": 0,
+            "aht_raw": "00:02:29.238000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 409,
+                "sharjah": 182,
+                "ajman": 624,
+                "clinics": 41
+            },
+            "attended": {
+                "dubai": 273,
+                "sharjah": 114,
+                "ajman": 414,
+                "clinics": 30
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5516,
+            "attend_rate": 0.6616,
+            "abandon_rate": 0.0
+        },
+        "achievement": {
+            "booking_ach": 1.2258,
+            "attend_ach": 0.8821
+        },
+        "evaluation": {
+            "score": 0.9014,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mohamed Ahmed soliman",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1432,
+            "outbound": 68,
+            "total_handled": 1711,
+            "abandoned": 7,
+            "aht_raw": "00:02:21.660000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 462,
+                "sharjah": 119,
+                "ajman": 343,
+                "clinics": 37
+            },
+            "attended": {
+                "dubai": 305,
+                "sharjah": 75,
+                "ajman": 221,
+                "clinics": 30
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5617,
+            "attend_rate": 0.6566,
+            "abandon_rate": 0.0049
+        },
+        "achievement": {
+            "booking_ach": 1.2482,
+            "attend_ach": 0.8755
+        },
+        "evaluation": {
+            "score": 0.9001,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Mona Abdelsalam",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1202,
+            "outbound": 72,
+            "total_handled": 1582,
+            "abandoned": 11,
+            "aht_raw": "00:01:45.033000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 456,
+                "sharjah": 104,
+                "ajman": 310,
+                "clinics": 34
+            },
+            "attended": {
+                "dubai": 318,
+                "sharjah": 67,
+                "ajman": 199,
+                "clinics": 27
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5714,
+            "attend_rate": 0.6759,
+            "abandon_rate": 0.0092
+        },
+        "achievement": {
+            "booking_ach": 1.2698,
+            "attend_ach": 0.9012
+        },
+        "evaluation": {
+            "score": 0.9213,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Samantha",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1639,
+            "outbound": 95,
+            "total_handled": 1756,
+            "abandoned": 13,
+            "aht_raw": "00:02:39.212000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 408,
+                "sharjah": 81,
+                "ajman": 240,
+                "clinics": 45
+            },
+            "attended": {
+                "dubai": 257,
+                "sharjah": 59,
+                "ajman": 150,
+                "clinics": 36
+            }
+        },
+        "actual": {
+            "booking_rate": 0.4408,
+            "attend_rate": 0.6486,
+            "abandon_rate": 0.0079
+        },
+        "achievement": {
+            "booking_ach": 0.9796,
+            "attend_ach": 0.8648
+        },
+        "evaluation": {
+            "score": 0.8523,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Teresa Pangilinan",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 2290,
+            "outbound": 65,
+            "total_handled": 2421,
+            "abandoned": 13,
+            "aht_raw": "00:02:05.761000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 515,
+                "sharjah": 156,
+                "ajman": 595,
+                "clinics": 37
+            },
+            "attended": {
+                "dubai": 352,
+                "sharjah": 97,
+                "ajman": 382,
+                "clinics": 22
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5382,
+            "attend_rate": 0.6546,
+            "abandon_rate": 0.0057
+        },
+        "achievement": {
+            "booking_ach": 1.196,
+            "attend_ach": 0.8728
+        },
+        "evaluation": {
+            "score": 0.8904,
+            "grade": "Meet Expectations"
+        }
+    },
+    {
+        "identity": {
+            "name": "Yathrib Ahmed Almustafa Alageb Gobara .",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 1813,
+            "outbound": 83,
+            "total_handled": 1987,
+            "abandoned": 15,
+            "aht_raw": "00:02:12.053000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 467,
+                "sharjah": 159,
+                "ajman": 574,
+                "clinics": 54
+            },
+            "attended": {
+                "dubai": 318,
+                "sharjah": 98,
+                "ajman": 310,
+                "clinics": 35
+            }
+        },
+        "actual": {
+            "booking_rate": 0.6311,
+            "attend_rate": 0.6069,
+            "abandon_rate": 0.0083
+        },
+        "achievement": {
+            "booking_ach": 1.4024,
+            "attend_ach": 0.8092
+        },
+        "evaluation": {
+            "score": 0.8664,
+            "grade": "Average"
+        }
+    },
+    {
+        "identity": {
+            "name": "Total",
+            "month": "March"
+        },
+        "calls": {
+            "inbound": 24814,
+            "outbound": 1099,
+            "total_handled": 27486,
+            "abandoned": 183,
+            "aht_raw": "00:02:11.852000"
+        },
+        "geo": {
+            "bookings": {
+                "dubai": 6241,
+                "sharjah": 2156,
+                "ajman": 6024,
+                "clinics": 611
+            },
+            "attended": {
+                "dubai": 4186,
+                "sharjah": 1285,
+                "ajman": 3753,
+                "clinics": 444
+            }
+        },
+        "actual": {
+            "booking_rate": 0.5469,
+            "attend_rate": 0.6432,
+            "abandon_rate": 0.0074
+        },
+        "achievement": {
+            "booking_ach": 1.2153,
+            "attend_ach": 0.8576
+        },
+        "evaluation": {
+            "score": 0.8951,
+            "grade": "N/A"
+        }
+    }
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 ]

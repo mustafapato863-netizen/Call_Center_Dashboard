@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import { useState } from 'react';
+=======
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Sidebar from './components/common/Sidebar';
@@ -21,6 +24,7 @@ function AnimatedRoutes() {
 }
 
 function App() {
+<<<<<<< HEAD
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
@@ -39,6 +43,15 @@ function App() {
         <main className="flex-1 lg:ml-64 min-h-screen flex flex-col transition-all duration-300 w-full lg:w-auto">
           <Header onMenuClick={() => setIsSidebarOpen(true)} />
           <div className="pt-[76px] flex-1 w-full">
+=======
+  return (
+    <Router>
+      <div className="flex min-h-screen bg-slate-50 font-sans">
+        <Sidebar />
+        <main className="flex-1 overflow-x-hidden overflow-y-auto">
+          <Header />
+          <div className="pt-[72px]">
+>>>>>>> 75b9f21d9db03d84bcebf32513cbcaca2a35aa6c
             <AnimatedRoutes />
           </div>
         </main>
